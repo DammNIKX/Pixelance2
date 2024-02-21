@@ -1,0 +1,101 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 10px;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+  }
+
+  header {
+    background-color: #2c3e50; /* Dark grey */
+    padding: 1em;
+    text-align: center;
+    .tagline{
+      text-align: center;
+      margin-left: 0px;
+    }
+  }
+
+  .Pixelance{
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  .topnav {
+    background-color: #34495e; /* Slightly lighter dark grey */
+    padding: 10px;
+  }
+  
+  .topnav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .topnav a:hover {
+    background-color: #2c3e50;
+  }
+
+  .topnav a.active {
+    margin-left: 20px;
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  h1{
+    color: #2ecc71;
+  }
+  
+  h2 {
+    color: #2ecc71; /* Green */
+    margin: 20px;
+  }
+
+  
+  p {
+    line-height: 1.6;
+    margin-left: 20px;
+    text-align: justify;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #2c3e50;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+.gallery-container {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.gallery {
+    display: inline-block;
+    font-size: 0; /* Remove default inline-block spacing */
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    width: 300px; /* Set your preferred image width */
+    height: 300px;
+    margin-right: 10px; /* Adjust the spacing between images */
+    border: 2px solid #fff; /* Orange border color */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Optional: Add styling for hover effects or other customizations */
+.gallery img:hover {
+    opacity: 0.8;
+    /* Add more styles as needed */
+}
